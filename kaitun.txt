@@ -39,7 +39,7 @@ BananaDecrypt = loadstring(game:HttpGet("https://cdn.shioru.xyz/nalala.lua"))()
             Team = "Pirates",
             Configuration = {
                 HopWhenIdle = true,
-                AutoHop = false,
+                AutoHop = true,
                 AutoHopDelay = 60 * 60,
                 FpsBoost = true
             },
@@ -5670,4 +5670,5 @@ BananaDecrypt = loadstring(game:HttpGet("https://cdn.shioru.xyz/nalala.lua"))()
     local success2, response2 = xpcall(mmb, debug.traceback)
     if not success2 then
         Report(response2)
+
     end
